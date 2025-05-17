@@ -1,0 +1,35 @@
+/* City Navigation Styles */
+.city-nav {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border: none;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 8px;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #007bff;
+}
+
+.city-slide {
+  transition: opacity 0.5s ease;
+}
+
+.hover-light:hover {
+  color: #ffffff !important;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ffffff !important;
+  transition: color 0.3s ease;
+}
